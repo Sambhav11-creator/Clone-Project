@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arijit Singh | Spotify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="artist.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="library-option nav-option">
+                        <i class="fa-solid fa-book"></i>
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="library-box">
+                    <p class="box-p1">Create your first playlist</p>
+                    <p class="box-p2">It's easy, we'll help you</p>
+                    <button class="badge">Create playlist</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main_content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <button class="nav-btn" onclick="history.back()"><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="nav-btn"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item premium-btn">Explore Premium</button>
+                    <button class="badge nav-item install-btn">
+                        <i class="fa-regular fa-circle-down"></i>Install App
+                    </button>
+                    <button class="user-btn">
+                        <i class="fa-regular fa-user"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="artist">
+                <div class="artist-content">
+                    <img src="artist1img.jpg" alt="Pritam" class="artist-img">
+                    <div class="artist-info">
+                        <div class="verified-badge">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <span>Verified Artist</span>
+                        </div>
+                        <h1 class="artist-name">Pritam</h1>
+                        <p class="artist-stats">39.2M monthly listeners</p>
+                    </div>
+                </div>
+            </div>
+            <div class="action-bar">
+                    <button class="play-button"><i class="fa-solid fa-circle-play"></i></button>
+                    <button class="follow-btn">FOLLOW</button>
+                    <button class="action-btn"><i class="fa-solid fa-ellipsis"></i></button>
+            </div>
+            <div class="artist-song">
+                <h2 class="section-title">Popular</h2>
+                <div class="tracklist">
+                    <div class="tracklist-header">
+                        <span class="col-index">#</span>
+                        <span class="col-title">Title</span>
+                        <span class="col-album">Album</span>
+                        <span class="col-duration"><i class="fa-regular fa-clock"></i></span>
+                    </div>
+                    <div class="track">
+                        <span class="track-index">1</span>
+                        <div class="track-info">
+                            <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=100" alt="Track">
+                            <div>
+                                <p class="track-title">Tum Hi Ho</p>
+                                <p class="track-plays">1,234,567,890</p>
+                            </div>
+                        </div>
+                        <span class="track-album">Aashiqui 2</span>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <span class="track-duration">4:22</span>
+                    </div>
+
+                    <div class="track">
+                        <span class="track-index">2</span>
+                        <div class="track-info">
+                            <img src="https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=100" alt="Track">
+                            <div>
+                                <p class="track-title">Channa Mereya</p>
+                                <p class="track-plays">987,654,321</p>
+                            </div>
+                        </div>
+                        <span class="track-album">Ae Dil Hai Mushkil</span>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <span class="track-duration">4:49</span>
+                    </div>
+
+                    <div class="track">
+                        <span class="track-index">3</span>
+                        <div class="track-info">
+                            <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=100" alt="Track">
+                            <div>
+                                <p class="track-title">Kesariya</p>
+                                <p class="track-plays">856,234,567</p>
+                            </div>
+                        </div>
+                        <span class="track-album">Brahmastra</span>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <span class="track-duration">4:28</span>
+                    </div>
+
+                    <div class="track">
+                        <span class="track-index">4</span>
+                        <div class="track-info">
+                            <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=100" alt="Track">
+                            <div>
+                                <p class="track-title">Ae Watan</p>
+                                <p class="track-plays">745,123,890</p>
+                            </div>
+                        </div>
+                        <span class="track-album">Raazi</span>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <span class="track-duration">3:52</span>
+                    </div>
+
+                    <div class="track">
+                        <span class="track-index">5</span>
+                        <div class="track-info">
+                            <img src="https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=100" alt="Track">
+                            <div>
+                                <p class="track-title">Pal Pal Dil Ke Paas</p>
+                                <p class="track-plays">654,987,321</p>
+                            </div>
+                        </div>
+                        <span class="track-album">Blackmail</span>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <span class="track-duration">5:02</span>
+                    </div>
+
+                    <div class="track">
+                        <span class="track-index">6</span>
+                        <div class="track-info">
+                            <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=100" alt="Track">
+                            <div>
+                                <p class="track-title">Gerua</p>
+                                <p class="track-plays">598,456,123</p>
+                            </div>
+                        </div>
+                        <span class="track-album">Dilwale</span>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <span class="track-duration">4:56</span>
+                    </div>
+
+                    <div class="track">
+                        <span class="track-index">7</span>
+                        <div class="track-info">
+                            <img src="https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=100" alt="Track">
+                            <div>
+                                <p class="track-title">Hawayein</p>
+                                <p class="track-plays">543,234,678</p>
+                            </div>
+                        </div>
+                        <span class="track-album">Jab Harry Met Sejal</span>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <span class="track-duration">4:36</span>
+                    </div>
+
+                    <div class="track">
+                        <span class="track-index">8</span>
+                        <div class="track-info">
+                            <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=100" alt="Track">
+                            <div>
+                                <p class="track-title">Raabta</p>
+                                <p class="track-plays">487,123,456</p>
+                            </div>
+                        </div>
+                        <span class="track-album">Agent Vinod</span>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <span class="track-duration">4:04</span>
+                    </div>
+
+                    <div class="track">
+                        <span class="track-index">9</span>
+                        <div class="track-info">
+                            <img src="https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?w=100" alt="Track">
+                            <div>
+                                <p class="track-title">Shayad</p>
+                                <p class="track-plays">432,987,654</p>
+                            </div>
+                        </div>
+                        <span class="track-album">Love Aaj Kal</span>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <span class="track-duration">3:58</span>
+                    </div>
+
+                    <div class="track">
+                        <span class="track-index">10</span>
+                        <div class="track-info">
+                            <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=100" alt="Track">
+                            <div>
+                                <p class="track-title">Agar Tum Saath Ho</p>
+                                <p class="track-plays">398,765,432</p>
+                            </div>
+                        </div>
+                        <span class="track-album">Tamasha</span>
+                        <div class="audio-player">
+                            <audio controls preload="none">
+                                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <span class="track-duration">5:41</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="music_player">
+            <div class="album-container">
+                <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=100" class="album-img" alt="Album">
+                <div class="singer">
+                    <p class="album-title">Tum Hi Ho</p>
+                    <a href="#" class="album-info">Arijit Singh</a>
+                </div>
+                <i class="fa-regular fa-heart album-icon"></i>
+            </div>
+
+            <div class="player">
+                <div class="player-controls">
+                    <button class="player-btn"><i class="fa-solid fa-shuffle"></i></button>
+                    <button class="player-btn"><i class="fa-solid fa-backward-step"></i></button>
+                    <button class="player-btn play-btn"><i class="fa-solid fa-circle-play"></i></button>
+                    <button class="player-btn"><i class="fa-solid fa-forward-step"></i></button>
+                    <button class="player-btn"><i class="fa-solid fa-repeat"></i></button>
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" value="0">
+                    <span class="tot-time">4:22</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="control-btn"><i class="fa-solid fa-list"></i></button>
+                <button class="control-btn"><i class="fa-solid fa-desktop"></i></button>
+                <button class="control-btn"><i class="fa-solid fa-volume-high"></i></button>
+                <input type="range" min="0" max="100" class="progress-bar volume" value="50">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
